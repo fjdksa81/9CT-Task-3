@@ -29,12 +29,12 @@ The interface is running and active.
 
 Main Flow:
 
-The user opens to see a 
+The user opens to see a GUI
 User selects one of the following options:
 a. View visualisation (e.g., chart or graph of selected data)
 b. Search or filter data based on specific criteria
 
-The system performs 
+The system performs this action
 
 Postconditions:
 
@@ -42,3 +42,12 @@ User has viewed and/or interacted with the data.
 
 Data remains unchanged despite viewing.
 
+### Data Dictionary 
+
+| Field | Datatype | Format for Display | Description | Example |Valdiation |
+| -------- | -------| ------ | ----------- | ------- | --------  |
+| Year Group | integer | N | Year group of the respondant | 9 | Will only be 10 or 9 due to the groups where the form was sent
+| Region | Object | XX...XX | The location of th respondant | Central Coast | Any number of characters, just no numbers
+| Year 7 First Day | Object | XX...XX | Did the respondant know people day 1 year 7 | Yes | Either Yes, No or Maybe 
+| Friend Group Size | Integer | N | Size of the respondant's friend group group | 7 | Between 1 and 10 |
+|
