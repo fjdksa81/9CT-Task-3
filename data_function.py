@@ -1,3 +1,5 @@
+import pandas as pd
+dataset = pd.read_csv('friendship_groups.csv')
 def year_averages():
   while (True):
     print("=== Choose Your Option ===")
@@ -66,5 +68,5 @@ def view_visualisations():
         pass
          
 def view_data():
-    #pandas here
+    print(dataset)
     pass

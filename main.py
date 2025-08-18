@@ -8,7 +8,7 @@ from data_function import (
 def user_interface():
     while True:
        print("=== Choose Your Option ===")
-       print("1. View Straight Data")
+       print("1. View Dataset")
        print("2. View visualisations")
        print("3. Exit Program")
        ui_choice = input("Select and Option: ")
