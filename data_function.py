@@ -7,12 +7,42 @@ def year_averages():
     print("2. Year 10")
     yeargroup_choice = input("Select an Option")
     if yeargroup_choice == "1":
-         #with only year 9
+         print("=== Choose Your Option ===")
+         print("1. Display area averages (where people are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         print("3. Display friend group averages (where friend group members are from)")
+         year9_choice = input("Select an Option")
+         if year9_choice == "1":
+             #matplotlib here
+             pass
+         elif year9_choice == "2":
+             #matplotlib here
+             pass
+         elif year9_choice == "3":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
          break
     elif yeargroup_choice == "2":
-         #only year 10
+         print("=== Choose Your Option ===")
+         print("1. Display area averages (where people are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         print("3. Display friend group averages (where friend group members are from)")
+         year10_choice = input("Select an Option")
+         if year10_choice == "1":
+             #matplotlib here
+             pass
+         elif year10_choice == "2":
+             #matplotlib here
+             pass
+         elif year10_choice == "3":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
          break
-    else:
+    else: 
         print ("Please use the two options provided")
 
 def area_averages():
@@ -26,23 +56,92 @@ def area_averages():
     print ("6. Newcastle or further North")
     areachoice = input("Select an Option")
     if areachoice == "1":
-        #north sydney data pandas
-        break
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         north_sydney_choice = input("Select an Option")
+         if north_sydney_choice == "1":
+             #matplotlib here
+             pass
+         elif north_sydney_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
     elif areachoice == "2":
-        #south sydney data
-        break
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         south_sydney_choice = input("Select an Option")
+         if south_sydney_choice == "1":
+             #matplotlib here
+             pass
+         elif south_sydney_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
     elif areachoice == "3":
-        #central sydney data
-        break
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         central_sydney_choice = input("Select an Option")
+         if central_sydney_choice == "1":
+             #matplotlib here
+             pass
+         elif central_sydney_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
     elif areachoice == "4":
-        #central coast data
-        break
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         central_coast_choice = input("Select an Option")
+         if central_coast_choice == "1":
+             #matplotlib here
+             pass
+         elif central_coast_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
     elif areachoice == "5":
-        #hunter valley data
-        break
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         hunter_valley_choice = input("Select an Option")
+         if hunter_valley_choice == "1":
+             #matplotlib here
+             pass
+         elif hunter_valley_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
+
     elif areachoice == "6":
-        #newcastle data
-        break    
+         print("=== Choose Your Option ===")
+         print("1. Display friend group averages (where friend group members are from)")
+         print("2. Display day 1 averages (were people lonely day 1 year 7)")
+         newcastle_choice = input("Select an Option")
+         if newcastle_choice == "1":
+             #matplotlib here
+             pass
+         elif newcastle_choice == "2":
+             #matplotlib here
+             pass
+         else:
+             print("Please input a valid character.")
+         break
+
+
     else:
         print ("Please input a correct number")
         pass
