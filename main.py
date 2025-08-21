@@ -1,6 +1,6 @@
 from data_function import (
     year_averages,
-    area_averages,
+    area_averages, 
     view_visualisations,
     view_data
 )
